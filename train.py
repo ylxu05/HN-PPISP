@@ -314,7 +314,7 @@ if __name__ == '__main__':
         os.makedirs(path_dir)
 
     for ii in range(1, 200):
-        print("开始第{ii_times}次循环".format(ii_times=ii))
+        print("start:{ii_times}th".format(ii_times=ii))
         demo(train_data, path_dir, ii, ratio_list)
-        print("结束第{ii_times}次循环".format(ii_times=ii))
+        print("end:{ii_times}th".format(ii_times=ii))
     print("=============================================")
